@@ -22,5 +22,5 @@ RUN apt-get update \
 EXPOSE 9090
 
 ADD config.cfg.template /
-ADD start-zkui.sh /usr/bin
+ADD start-zkui.sh /usr/bin/
 CMD start-zkui.sh
